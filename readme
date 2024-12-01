@@ -1,0 +1,10 @@
+add the initializing code to the __init__ file and add the file to the website folder.
+
+why add the file to the folder? this way the file now is a package.
+
+for app.run(debug=True, Port = ) another port attribute can be added to change the port of the server
+
+part 2 is for security regarding authentication for loging in and login out.
+
+<form class="input-group mb-3" method="POST" action="/create-comment/{{post.id}}">  the post.id is passed a variable to the html page just to know which post to add a comment for.
+then the post.id is passed as a variable to the page from the view.

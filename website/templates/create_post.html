@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% set title = 'login' %}
+
+{% block content %}
+<h1 align="center">Create a Post</h1>
+
+<form action="" method="POST">
+    <textarea name="text" id="text" class="form-control"></textarea>
+    <br>
+    <div align="center">
+        <button type="submit" class="btn btn-lg btn-primary">Post</button>
+    </div>
+</form>
+<br>
+<div align="center">
+    <a href="/home"><button type="button" class="btn btn-sm btn-secondary">Back</button></a>
+</div>
+{%endblock %}
